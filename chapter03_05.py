@@ -50,8 +50,11 @@ print('c - ', c.get('arr'))
 print('d - ', d.get('Age'))
 print('e - ', e.get('Grade'))
 print('f - ', f.get('City'))
+# 키에 해당하는 값을 가져올 때는 get 메소드를 가져오는 것이 안전하다
+# Why? Error발생을 하지않고 None처리가 되기때문에
 
 # 딕셔너리 추가
+# 바로 속성으로 접근해서 추가 또는 기존의 key가 있으면 수정이 되고 없으면 추가가 된다
 a['address'] = 'seoul'
 print('a - ', a)
 a['rank'] = [1, 2, 3]
@@ -75,6 +78,7 @@ print('a - ', list(a.keys())) # 리스트로 형 변환
 print('b - ', list(b.keys()))
 print('c - ', list(c.keys()))
 print('d - ', list(d.keys()))
+print()
 
 # values 메소드는 value값만 가져오는 메소드
 print('a - ', a.values())
@@ -86,6 +90,7 @@ print('a - ', list(a.values()))
 print('b - ', list(b.values()))
 print('c - ', list(c.values()))
 print('d - ', list(d.values()))
+print()
 
 # items 메소드를 사용하면 key와 value하면 리스트로 나오면서 튜플 형태로 key의 갯수만큼 출력
 print('a - ', a.items())
@@ -120,7 +125,7 @@ print()
 
 # pop이 들어가면 원본에 있는 데이터는 무조건 삭제가 된다
 
-# in 연산자 : key가 있는지 즉흥적으로 쉽게 조회할 수 있다.
+# in 연산자 : key가 있는지 포함되어있는지 즉흥적으로 쉽게 조회할 수 있다.
 print('a - ', 'name' in a)
 print('a - ', 'addr' in a)
 
