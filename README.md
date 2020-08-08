@@ -1,5 +1,6 @@
 # Python_Basic
-### <strong>프로그래밍 시작하기 : 파이썬 입문 (Inflearn Original)</strong>
+<h3>프로그래밍 시작하기 : 파이썬 입문 (Inflearn Original)</h3>
+
 ![I_O_python_1](https://user-images.githubusercontent.com/59460979/89014571-a8240a00-d350-11ea-9bb5-e7c0aa553516.png)
 
 아래 사이트는 온라인 학습플렛폼인 <strong>인프런(Inflearn)</strong>에 있는 강의 중
